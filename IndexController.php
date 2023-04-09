@@ -3,6 +3,7 @@
     // Подключаем модели
     include_once 'models/CategoriesModel.php';
     include_once 'models/ProductsModel.php';
+	include_once 'models/CartModel.php';
 
      function testAction(){
          echo 'IndexController.php > testAction';
