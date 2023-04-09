@@ -13,7 +13,7 @@
      *@param object $smarty шаблонизатор
      */
 
-    function indexAction($smarty){
+    function indexAction3($smarty){
         $itemId = isset($_GET['id']) ? $_GET['id'] : null;
         if($itemId == null) exit();
 
