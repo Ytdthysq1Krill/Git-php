@@ -18,7 +18,7 @@
 
 function registerAction(){
     $email = isset($_REQUEST['email']) ? $_REQUEST['email'] : null;
-    $email = trim($email);
+    $email123 = trim($email);
 
     $password = isset($_REQUEST['pwd1']) ? $_REQUEST['pwd1'] : null;
     $password2 = isset($_REQUEST['pwd2']) ? $_REQUEST['pwd2'] : null;
