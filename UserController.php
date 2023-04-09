@@ -21,7 +21,7 @@ function registerAction(){
     $email = trim($email);
 
     $password = isset($_REQUEST['pwd1']) ? $_REQUEST['pwd1'] : null;
-    $pwd2 = isset($_REQUEST['pwd2']) ? $_REQUEST['pwd2'] : null;
+    $password2 = isset($_REQUEST['pwd2']) ? $_REQUEST['pwd2'] : null;
 
     $phone  = isset($_REQUEST['phone'])  ? $_REQUEST['phone']  : null;
     $address = isset($_REQUEST['address']) ? $_REQUEST['address'] : null;
